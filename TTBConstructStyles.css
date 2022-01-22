@@ -1,0 +1,187 @@
+.col-5 {
+  margin: 0px;
+  padding: 0px;
+}
+.col-7 {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.construct-title-header td {
+    background-color: var(--grey-background-color);
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.construct-title-content td {
+    height: 32px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.construct-table-header td {
+  background-color: var(--grey-background-color);
+  border: 2px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.construct-table-content td {
+  height: 21px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.construct-half-width td {
+    width: 50%;
+}
+.construct-mid-divider-left {
+  margin: 0px;
+  margin-right: 4px;
+}
+.construct-mid-divider-right {
+  margin: 0px;
+  margin-left: 4px;
+}
+
+
+
+.construct-aspect-aspect {
+  width: 30%;
+  border: 1px solid black;
+  border-right: 0px;
+  background-color: var(--grey-background-color);
+}
+.construct-aspect-shifted {
+  padding-left: 4px;
+}
+.construct-aspect-abbreviation {
+  width: 5%;
+  border: 1px solid black;
+  border-left: 0px;
+  font-size: 8px;
+  color: #444;
+  background-color: var(--grey-background-color);
+}
+.construct-aspect-fill {
+  border: 1px solid black;
+  height: 24px;
+}
+.construct-aspect-small-break {
+  height: 10px;
+}
+.construct-aspect-extra-box {
+  border: 1px solid black;
+}
+.construct-aspect-extra-box td {
+  height: 23px;
+  background-color: var(--grey-background-color);
+  padding-left: 3px;
+}
+
+.construct-attack td {
+  width: 15%;
+}
+.construct-attack td.construct-attacks-blank {
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  width: 3%;
+  background-color: white;
+}
+.construct-attacks-break {
+  height: 8px;
+}
+.construct-attacks-triggers-fill {
+  height: 36px;
+}
+.construct-attacks-between-break {
+  height: 12px;
+}
+
+.construct-skills-italic-table {
+  border-color: white;
+  font-style: italic;
+}
+.construct-skills-italic-table td {
+  border: 1px solid white;
+}
+.construct-skills-header-height {
+  height: 20px;
+}
+.construct-skills-category-spacing {
+  width: 9%;
+}
+.construct-skills-namde-header-spacing {
+  width: 41%; /* Combines name + abbreviation */
+}
+.construct-skills-name-spacing {
+  width: 36%;
+}
+.construct-skills-aspect-abbreviation-spacing {
+  width: 5%;
+}
+.construct-skills-av-spacing {
+  width: 25%;
+}
+.construct-skills-rating-spacing {
+  width: 25%;
+}
+.construct-skills-category {
+  text-align: center;
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: sideways-lr;
+  background-color: var(--grey-background-color);
+  padding-left: 0px;
+  font-size: xx-small;
+}
+.construct-skills-name {
+  border: 1px solid black;
+  border-right: 0px;
+}
+.construct-skills-plus-minus {
+  border: 1px solid black;
+  border-left: 0px;
+}
+.construct-skills-av {
+  background-color: var(--grey-background-color);
+}
+.construct-skills-fill {
+  border: 1px solid black;
+  height: 20px;
+}
+.construct-skills-aspect-fill {
+  border: 1px solid black;
+  border-right: 0px;
+}
+.construct-skills-aspect-abbreviation {
+  border: 1px solid black;
+  border-left: 0px;
+  color: #777;
+  text-align: center;
+  font-size: 8px;
+}
+.construct-skills-break {
+  height: 10px;
+}
+.construct-skills-bigger-break {
+  height: 4px;
+}
+.little-grey-box {
+  border: 1px solid black;
+  background-color: var(--grey-background-color);
+  display: inline-block;
+  width: 100%;
+}
+.construct-skills-extra-box {
+  height: 20px;
+  padding-top: 1.8px;
+  font-size: smaller;
+  vertical-align: middle;
+}
+
+
+.construct-notes {
+  vertical-align: baseline;
+  height: 246.2px;
+}

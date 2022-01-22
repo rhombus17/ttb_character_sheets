@@ -1,0 +1,902 @@
+<!Doctype HTML>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="TTBStyles.css" rel="stylesheet">
+  <link href="TTBSheet1Styles.css" rel="stylesheet">
+  <!-- <link href="TTBAwesomeStyles.scss" rel="stylesheet"> -->
+</head>
+
+<body>
+
+<div class="pagewidth">
+<div class="container-fluid">
+  <div class="row fated-characteristics">
+    <div class="col">
+      <table>
+        <tr>
+          <td class="table-header" colspan="2">Fated Name</td>
+        </tr>
+        <tr>
+          <td class="table-content fated-char-content" colspan="2"></td>
+        </tr>
+        <tr>
+          <td class="table-header" width="50%">Player Name</td>
+          <td class="table-header" width="50%">Current Pursuit</td>
+        </tr>
+        <tr>
+          <td class="table-content fated-char-content" width="50%"></td>
+          <td class="table-content fated-char-content" width="50%"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="col">
+      <table>
+        <tr>
+          <td class="table-header" colspan="2">Past Pursuits</td>
+        </tr>
+        <tr>
+          <td class="table-content fated-char-content" colspan="2"></td>
+        </tr>
+        <tr>
+          <td class="table-header" width="50%">Station</td>
+          <td class="table-header" width="50%">Characteristics</td>
+        </tr>
+        <tr>
+          <td class="table-content fated-char-content" width="50%"></td>
+          <td class="table-content fated-char-content" width="50%"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="col">
+      <table>
+        <tr>
+          <td width="50%" class="fated-statistic  text-padding" height="17.5px">Age</td>
+          <td rowspan="6" width="50%" class="align-top-left  text-padding">Character Notes</td>
+        </tr>
+        <tr>
+          <td class="fated-statistic text-padding" height="17.5px">Gender</td>
+        </tr>
+        <tr>
+          <td class="fated-statistic text-padding" height="17.5px">Eyes</td>
+        </tr>
+        <tr>
+          <td class="fated-statistic text-padding" height="17.5px">Hair</td>
+        </tr>
+        <tr>
+          <td class="fated-statistic text-padding" height="17.5px">Height</td>
+        </tr>
+        <tr>
+          <td class="fated-statistic text-padding" height="17.5px">Weight</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row section-divider"></div>
+  <div class="row">
+    <div class="col-5 left-main-col">
+
+      <div class="row aspects">
+        <h1>Aspects</h1>
+        <div class="col mid-divider-left">
+          <h2>Physical</h2>
+          <table>
+            <tr>
+              <td class="aspect-aspect">Might</td>
+              <td class="aspect-abbreviation">M</td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Grace</td>
+              <td class="aspect-abbreviation">G</td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Speed</td>
+              <td class="aspect-abbreviation">S</td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Resilience</td>
+              <td class="aspect-abbreviation">R</td>
+              <td class="aspect-fill"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="col mid-divider-right">
+          <h2>Mental</h2>
+          <table>
+            <tr>
+              <td class="aspect-aspect">Intellect</td>
+              <td class="aspect-abbreviation">I</td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Charm</td>
+              <td class="aspect-abbreviation">C</td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Cunning</td>
+              <td class="aspect-abbreviation">N</td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Tenacity</td>
+              <td class="aspect-abbreviation">T</td>
+              <td class="aspect-fill"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="row section-divider"></div>
+
+      <div class="row derived-aspects">
+        <h1>Derived Aspects</h1>
+        <div class="col mid-divider-left">
+          <table>
+            <tr>
+              <td class="aspect-aspect">Defense</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect aspect-shifted">Armor</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Willpower</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Wounds</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+          </table>
+          <div class="aspect-small-break"></div>
+          <table class="aspect-extra-box">
+            <tr>
+              <td>Current Wounds:</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col mid-divider-right">
+          <table>
+            <tr>
+              <td class="aspect-aspect">Walk</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect aspect-shifted">Charge</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Initiative</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+            <tr>
+              <td class="aspect-aspect">Height</td>
+              <td class="aspect-abbreviation"></td>
+              <td class="aspect-fill"></td>
+            </tr>
+          </table>
+          <div class="aspect-small-break"></div>
+          <table class="aspect-extra-box">
+            <tr>
+              <td>Status:</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+
+      <div class="row section-divider"></div>
+
+      <div class="row attacks">
+        <h1>Attacks</h1>
+        <table style="border: 0px;">
+          <tr>
+            <td class="table-header attacks-name">Name</td>
+            <td rowspan="4" class="attacks-blank"></td>
+            <td class="table-header attacks-spec">AV</td>
+            <td class="table-header attacks-spec">Range</td>
+            <td class="table-header attacks-spec">Damage</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-name attacks-fill"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+          </tr>
+          <tr>
+            <td class="table-header attacks-name">Special</td>
+            <td class="table-header attacks-spec">Capacity</td>
+            <td class="table-header attacks-spec">Reload</td>
+            <td class="table-header attacks-spec">TN</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-name attacks-fill"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+          </tr>
+          <tr>
+            <td class="attacks-break" colspan="5"></td>
+          </tr>
+          <tr>
+            <td class="table-header" colspan="5">Triggers</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-triggers-fill" colspan="5"></td>
+          </tr>
+        </table>
+        <div class="attacks-between-break"></div>
+        <table style="border: 0px;">
+          <tr>
+            <td class="table-header attacks-name">Name</td>
+            <td rowspan="4" class="attacks-blank"></td>
+            <td class="table-header attacks-spec">AV</td>
+            <td class="table-header attacks-spec">Range</td>
+            <td class="table-header attacks-spec">Damage</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-name"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+          </tr>
+          <tr>
+            <td class="table-header attacks-name">Special</td>
+            <td class="table-header attacks-spec">Capacity</td>
+            <td class="table-header attacks-spec">Reload</td>
+            <td class="table-header attacks-spec">TN</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-name"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+          </tr>
+          <tr>
+            <td class="attacks-break" colspan="5"></td>
+          </tr>
+          <tr>
+            <td class="table-header" colspan="5">Triggers</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-triggers-fill" colspan="5"></td>
+          </tr>
+        </table>
+        <!-- <div class="attacks-between-break"></div>
+        <table style="border: 0px;">
+          <tr>
+            <td class="table-header attacks-name">Name</td>
+            <td rowspan="4" class="attacks-blank"></td>
+            <td class="table-header attacks-spec">AV</td>
+            <td class="table-header attacks-spec">Range</td>
+            <td class="table-header attacks-spec">Damage</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-name"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+          </tr>
+          <tr>
+            <td class="table-header attacks-name">Special</td>
+            <td class="table-header attacks-spec">Capacity</td>
+            <td class="table-header attacks-spec">Reload</td>
+            <td class="table-header attacks-spec">TN</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-name"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+            <td class="table-content attacks-spec"></td>
+          </tr>
+          <tr>
+            <td class="attacks-break" colspan="5"></td>
+          </tr>
+          <tr>
+            <td class="table-header" colspan="5">Triggers</td>
+          </tr>
+          <tr>
+            <td class="table-content attacks-triggers-fill" colspan="5"></td>
+          </tr>
+        </table> -->
+      </div>
+    </div>
+    
+    <div class="col-7 right-main-col">
+      <h1>Skills</h1>
+      <div class="row skills">
+        <div class="col mid-divider-left">
+          <table class="skills-italic-table align-center">
+            <tr>
+              <td class="skills-category-spacing skills-header-height"></td>
+              <td class="skills-name-spacing">Skill</td>
+              <td class="skills-plus-minus-spacing">+/-</td>
+              <td class="skills-av-spacing">AV</td>
+              <td class="skills-rating-spacing">Rating</td>
+              <td class="skills-aspect-spacing" colspan="2">Aspect</td>
+            </tr>
+          </table>
+          <table class="skills-table academic">
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="6">Academic</td>
+              <td class="skills-name-spacing skills-name text-padding">Bureaucracy</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Engineering</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">History</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Literacy</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Mathematics</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Music</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">C</td>
+            </tr>
+          </table>
+          
+          <div class="skills-break"></div>
+
+          <table class="skills-table close-combat">
+            <!-- Flexible
+                Grappling
+                Heavy Melee
+                Martial Arts
+                Melee
+                Pneumatic
+                Pugilism -->
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="7">Close Combat</td>
+              <td class="skills-name-spacing skills-name text-padding">Flexible</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">G</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Grappling</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">S</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Heavy Melee</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">M</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Martial Arts</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">S</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Melee</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">M</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Pneumatic</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">M</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Pugilism</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">M</td>
+            </tr>
+          </table>
+          
+          <div class="skills-break"></div>
+
+          <table class="skills-table crafting">
+            <!-- Alchemistry
+                Art
+                Artefacting
+                Blacksmithing
+                Culinary
+                Explosives
+                Homesteading
+                Printing
+                Stitching -->
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="9">Crafting</td>
+              <td class="skills-name-spacing skills-name text-padding">Alchemistry</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Art</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Artefacting</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Blacksmithing</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Culinary</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">C</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Explosives</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Homesteading</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">T</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Printing</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Stitching</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">T</td>
+            </tr>
+          </table>
+          
+          <div class="skills-break"></div>
+
+          <table class="skills-table expertise">
+            <!-- Doctor
+                Forgery
+                Gambling
+                Husbandry
+                Lockpicking
+                Notice
+                Track
+                Wilderness -->
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="8">Expertise</td>
+              <td class="skills-name-spacing skills-name text-padding">Doctor</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Forgery</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Gambling</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Husbandry</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">C</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Lockpicking</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">G</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Notice</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Track</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Wilderness</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col mid-divider-right">
+          <div class="skills-bigger-break"></div>
+          <span class="little-grey-box text-padding skills-extra-box">Unspent Experience Points:</span>
+          <div class="skills-bigger-break"></div>
+          <span class="little-grey-box text-padding skills-extra-box">Pursuit Skill Category:</span>
+          <div class="skills-bigger-break"></div>
+
+          <table class="skills-italic-table align-center">
+            <tr>
+              <td class="skills-category-spacing skills-header-height"></td>
+              <td class="skills-name-spacing">Skill</td>
+              <td class="skills-plus-minus-spacing">+/-</td>
+              <td class="skills-av-spacing">AV</td>
+              <td class="skills-rating-spacing">Rating</td>
+              <td class="skills-aspect-spacing" colspan="2">Aspect</td>
+            </tr>
+          </table>
+
+          <table class="skills-table magical">
+            <!-- Counter-Spelling
+                Enchanting
+                Necromancy
+                Prestidigitation
+                Sorcery -->
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="5">Magical</td>
+              <td class="skills-name-spacing skills-name text-padding">Counter-Spelling</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">T</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Enchanting</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">C/N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Necromancy</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">C/T</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Prestidigitation</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N/I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Sorcery</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I/T</td>
+            </tr>
+          </table>
+          
+          <div class="skills-break"></div>
+
+          <table class="skills-table ranged">
+            <!-- Archery
+                Heavy Guns
+                Long Arms
+                Pistol
+                Shotgun
+                Thrown Weapons -->
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="6">Ranged</td>
+              <td class="skills-name-spacing skills-name text-padding">Archery</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">G</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Heavy Guns</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">M</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Long Arms</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Pistol</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">G</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Shotgun</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">G</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Thrown Weapons</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">G</td>
+            </tr>
+          </table>
+          
+          <div class="skills-break"></div>
+
+          <table class="skills-table social">
+            <!-- Barter
+                Bewitch
+                Convince
+                Deceive
+                Intimidate
+                Leadership
+                Scrutiny -->
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="7">Social</td>
+              <td class="skills-name-spacing skills-name text-padding">Barter</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">T</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Bewitch</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">C</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Convince</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">I</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Deceive</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Intimidate</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">T</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Leadership</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">C</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Scrutiny</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+          </table>
+          
+          <div class="skills-break"></div>
+
+          <table class="skills-table training">
+            <!-- Acrobatics
+                Athletics
+                Carouse
+                Centering
+                Evade
+                Pick Pocket
+                Stealth
+                Toughness -->
+            <tr>
+              <td class="skills-category-spacing skills-category" rowspan="8">Training</td>
+              <td class="skills-name-spacing skills-name text-padding">Acrobatics</td>
+              <td class="skills-plus-minus-spacing skills-plus-minus"></td>
+              <td class="skills-av-spacing skills-fill skills-av"></td>
+              <td class="skills-rating-spacing skills-fill"></td>
+              <td class="skills-aspect-fill-spacing skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation-spacing skills-aspect-abbreviation">G</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Athletics</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">M</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Carouse</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">R</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Centering</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">T</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Evade</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">S</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Pick Pocket</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">S</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Stealth</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">N</td>
+            </tr>
+            <tr>
+              <td class="skills-name text-padding">Toughness</td>
+              <td class="skills-plus-minus"></td>
+              <td class="skills-fill skills-av"></td>
+              <td class="skills-fill"></td>
+              <td class="skills-aspect-fill"></td>
+              <td class="skills-aspect-abbreviation">R</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

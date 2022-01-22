@@ -1,0 +1,86 @@
+:root {
+    --grey-background-color: #ebebeb;
+    --normal-font-size: 18px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Spectral SC', serif;
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+  h1, h2, .container-fluid, .row, .col {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  h2 {
+    width: 100%;
+    font-size: inherit;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    height: 20px;
+    padding-top: 3px;
+  }
+  .pagewidth {
+    width: 1100px;
+    margin: 16px 6px;
+  }
+  .col {
+    margin: 0px 9px;
+  }
+  .align-top-left {
+    text-align: left;
+    vertical-align: top;
+  }
+  .align-center {
+    text-align: center;
+  }
+
+  .mid-divider-right {
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .mid-divider-left {
+    margin: 0px;
+    margin-right: 10px;
+  }
+
+  .text-padding {
+    padding-left: 2px;
+  }
+
+  .section-divider {
+    height: 16px;
+  }
+  table {
+    width: 100%;
+    border: 2px solid black;
+  }
+
+  .table-header {
+    background-color: var(--grey-background-color);
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  .table-content {
+    height: 21px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .half-width {
+    width: 50%;
+  }
