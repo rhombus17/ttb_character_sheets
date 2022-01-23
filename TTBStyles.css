@@ -84,3 +84,7 @@
   .half-width {
     width: 50%;
   }
+
+  .grey-back {
+    background-color: var(--grey-background-color);
+  }

@@ -14,7 +14,7 @@
 
 .magic-theories-box {
     vertical-align: baseline;
-    height: 48.4px;
+    height: 74.5px;
 }
 .grimoire-title {
     background-color: var(--grey-background-color);
@@ -23,7 +23,7 @@
     text-align: center;
 }
 .grimoire-fill {
-    height: 48px;
+    height: 64px;
     border: 1px solid black;
 }
 
@@ -48,7 +48,7 @@
 .destiny-name {
     width: 60%;
     border: 1px solid black;
-    background: #f3f3f3;
+    background: var(--grey-background-color);
     text-align: center;
 }
 .destiny-check {
@@ -63,7 +63,7 @@
 .destiny-card {
     width: 26%;
     border: 1px solid black;
-    background: #f3f3f3;
+    background: var(--grey-background-color);
     text-align: center;
 }
 .destiny-fill {
@@ -76,7 +76,7 @@
 
 .twist-title {
     border: 1px solid black;
-    background: #f3f3f3;
+    background: var(--grey-background-color);
     text-align: center;
 }
 .twist-fill {
@@ -95,3 +95,14 @@
     vertical-align: baseline;
     height: 204.9px;
 }
+
+.skill-triggers th {
+    background-color: var(--grey-background-color);
+    border: 1px solid black;
+}
+.skill-triggers td {
+    height: 36px;
+    border: 1px solid black;
+}
+
+
