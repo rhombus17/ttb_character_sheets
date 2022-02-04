@@ -14,7 +14,7 @@
 
 .magic-theories-box {
     vertical-align: baseline;
-    height: 74.5px;
+    height: 42.5px;
 }
 .grimoire-title {
     background-color: var(--grey-background-color);
@@ -22,8 +22,11 @@
     border-top: 2px solid black;
     text-align: center;
 }
+.grimoire-name-fill {
+    height: 36px;
+}
 .grimoire-fill {
-    height: 64px;
+    height: 84px;
     border: 1px solid black;
 }
 

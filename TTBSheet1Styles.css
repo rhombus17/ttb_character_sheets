@@ -1,3 +1,10 @@
+  .left-half-col {
+    padding-left: 0px;
+  }
+  .right-half-col {
+    padding-right: 0px;
+  }
+  
   .fated-char-content {
     height: 39px;
   }
@@ -32,28 +39,29 @@
     height: 10px;
   }
   .aspect-extra-box {
-    border: 1px solid black;
+    border: 2px solid black;
   }
   .aspect-extra-box td {
-    height: 23px;
-    background-color: var(--grey-background-color);
     padding-left: 3px;
+  }
+  .aspect-extra-box-fill {
+    height: 28.8px;
   }
 
   .attacks-blank {
-    width: 20px;
+    width: 10px;
   }
   .attacks-spec {
     width: 18%;
   }
   .attacks-break {
-    height: 14px;
+    height: 10px;
   }
   .attacks-triggers-fill {
-    height: 44px;
+    height: 36px;
   }
   .attacks-between-break{
-    height: 23.8px;
+    height: 16px;
   }
   .attacks-fill {
     height: 24px;

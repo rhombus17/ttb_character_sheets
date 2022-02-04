@@ -63,6 +63,9 @@
   .section-divider {
     height: 16px;
   }
+  .inner-section-divider {
+    height: 12px;
+  }
   table {
     width: 100%;
     border: 2px solid black;
