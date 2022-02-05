@@ -2,7 +2,7 @@
     width: 25%;
     background-color: var(--grey-background-color);
     font-style: italic;
-    height: 40px;
+    height: 54px;
     border: 1px solid black;
     text-align: center;
 }
@@ -14,7 +14,7 @@
 
 .magic-theories-box {
     vertical-align: baseline;
-    height: 42.5px;
+    height: 43px;
 }
 .grimoire-title {
     background-color: var(--grey-background-color);
@@ -26,17 +26,16 @@
     height: 36px;
 }
 .grimoire-fill {
-    height: 84px;
+    height: 94px;
     border: 1px solid black;
 }
 
 .money td {
-    background-color: var(--grey-background-color);
     vertical-align: baseline;
     height: 44.1px;
 }
 
-.equipment td {
+.general-equipment td {
     border: 1px solid black;
     height: 43px;
 }
@@ -104,8 +103,36 @@
     border: 1px solid black;
 }
 .skill-triggers td {
-    height: 36px;
+    height: 43px;
     border: 1px solid black;
 }
 
+.armor {
+    --header-width: 15%;
+    --active-variant: 3;
+    text-align: center;
+}
+.armor td {
+    border: 1px solid black;
+}
 
+.armor-header {
+    width: var(--header-width);
+    vertical-align: center;
+    height: 24px;
+}
+.armor-filler {
+    width: calc(50% - var(--header-width));
+    height: 46.3px;
+}
+
+.armor-mini-headers td {
+    font-size: 8px;
+    height: 12px;
+}
+
+.armor-mini-fillers td {
+    font-size: 8px;
+    color: #999;
+    vertical-align: center;
+}
